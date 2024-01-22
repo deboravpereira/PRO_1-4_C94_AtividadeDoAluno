@@ -119,10 +119,24 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         color: "white"
     },
-   
-    
-    
-   
-    
-    
+    backgroundImage: {
+        flex: 1,
+        resizeMode: 'cover',
+        width: Dimensions.get('window').width,
+        height: Dimensions.get('window').height
+    },
+    cardTitle: {
+        fontSize: 20,
+        marginBottom: 10,
+        fontWeight: "bold",
+        color: "white"
+    },
+    cardText: {
+        color: "white"
+    },
+    gifContainer: {
+        justifyContent: "center",
+        alignItems: "center",
+        flex: 1
+    }
 });
